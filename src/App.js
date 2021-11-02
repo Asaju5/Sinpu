@@ -1,11 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="justify-center font-bold flex items-center border-2 mt-5">
-      Hello
-    </div>
+    <Router>
+      <Switch>
+      </Switch>
+      <Router>
+      <Header />
+      </Router>
+    </Router>
   );
 }
 
